@@ -24,7 +24,7 @@ function App() {
       <label>Altura: </label>
       <input type="number" value={altura} onChange={(e) => setAltura(+e.target.value)} placeholder="altura (m)"/><br/>
       <button onClick={calculateIMC}>Calcular</button>
-      <h2>RESULTADO: </h2>
+      <h2>RESULTADO FINAL: </h2>
       <h1>{resultado}</h1>
       <div>
         <table border="2">
